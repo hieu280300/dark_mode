@@ -6,68 +6,62 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
    <!-- Template css Files -->
 	<link rel="stylesheet" href="css/style.css" type="text/css">
-    <link rel="stylesheet" href="css/skins/pink.css" type="text/css">
   	<script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
   	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"/>
 	<link rel="preconnect" href="https://fonts.gstatic.com">
-	<style>
-		@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600&display=swap');
-		</style>
   	
 </head>
 <body>
-	<div class="lbel container">
-		<div class="row">
-				<label for="nav_checkbox" class="nav_btn">
-					<div class="hi col">
-						<i class="fa fa-bars" ></i>
-					</div>
-					<div class="col-6"></div>
-					<div class="change-color col">       
-						<label for="color-checkbox">
-							<span class="themes-btn title" ><i class="fas fa-cog fa-lg fa-spin "></i></span>
-						</label>
-					</div>
-			    </label>
-        </div>	
+	<div class="lbel">
+	 <label for="nav_checkbox" class="nav_btn">
+		<div class="c">
+			<i class="fa fa-bars" ></i>
+		</div>	
+		<div class="b"> 
+			<label for="color-checkbox">
+				<span class="themes-btn title" ><i class="fas fa-cog fa-lg fa-spin "></i></span>
+			</label>
+			<div class="d">
+				<input type="checkbox" id="color-checkbox" class="color_input" hidden >
+							<div class="color title">
+								<div class="theme">
+									<h5 >NavBar colors</h5>
+								<ul class="themes-colors">
+									<li></li>
+									<li></li>
+									<li></li>
+									<li></li>
+									<li></li>
+									<li></li>
+									<li></li>
+									<li></li>
+									<li></li>
+								</ul>
+								<br>
+								<h5>section colors</h5>
+									<ul class="section-colors">
+										<li></li>
+										<li></li>
+										<li></li>
+										<li></li>
+										<li></li>
+										<li></li>
+										<li></li>
+										<li></li>
+										<li></li>
+									</ul> 
+								</div>		  
+							</div>
+				</div>	
+		</div>	
+	</label>		
 	</div>
 	
 	<div class="main-container">	
-		<input type="checkbox" id="color-checkbox" class="color_input" hidden >
-		<div class="color title">
-			<div class="theme">
-			 <h5 >NavBar colors</h5>
-			  <ul class="themes-colors">
-				<li></li>
-				<li></li>
-				<li></li>
-				<li></li>
-				<li></li>
-				<li></li>
-				<li></li>
-				<li></li>
-				<li></li>
-			  </ul>
-			  <br>
-				<h5>section colors</h5>
-				  <ul class="section-colors">
-					<li></li>
-					<li></li>
-					<li></li>
-					<li></li>
-					<li></li>
-					<li></li>
-					<li></li>
-					<li></li>
-					<li></li>
-				  </ul> 
-			</div>		  
-		</div>
 		
-	
 		<input type="checkbox" name="" id="nav_checkbox" class="nav_input" hidden>		
 		<div class="nav_mobile" >
 			<label for="nav_checkbox" class="nav_mobile_close">
@@ -79,9 +73,9 @@
 				</div>
 				<ul>
 					<li class="active"><a href="#home section" ><i class="fa fa-home"> Home</i></a></li>
-					<li><a href="#about section"><i class="fa fa-user"> About</i></a></li>
+					<li><a href="#about section" ><i class="fa fa-user"> About</i></a></li>
 					<li><a href="#experience section" ><i class="fa fa-briefcase"> Experience</i></a></li>
-					<li><a href="#skill section" ><i class="fab fa-dev"> Skills</i></a></li>
+					<li><a href="#skill section" ><i class="fa fa-star"> Skills</i></a></li>
 					<li><a href="#awards section"><i class="fas fa-trophy"> Awards</i></a></li>	
 				</ul>
 			</nav>	
@@ -97,19 +91,22 @@
 						<li class="active"><a href="#home section" ><i class="fa fa-home"> Home</i></a></li>
 						<li><a href="#about section"><i class="fa fa-user"> About</i></a></li>
 						<li><a href="#experience section" ><i class="fa fa-briefcase"> Experience</i></a></li>
-						<li><a href="#skill section" ><i class="fab fa-dev"> Skills</i></a></li>
+						<li><a href="#skill section" ><i class="fa fa-star"> Skills</i></a></li>
 						<li><a href="#awards section"><i class="fas fa-trophy"> Awards</i></a></li>	
 					</ul>
 				</nav>	
 			</div>	
 		</div>	
 	</div>
+
 	<div class="main-content">
+		<section>
 			<div class="choose">
 				<div class="colors title">
 				  <div class="theme">
 				   <h5 >themes colors</h5>
 					<ul class="themes-colors">
+					  <li></li>
 					  <li></li>
 					  <li></li>
 					  <li></li>
@@ -132,9 +129,11 @@
 						<li></li>
 						<li></li>
 						<li></li>
+						<li></li>
 					  </ul> <br>
 					  <h5>section colors</h5>
 						<ul class="section-colors">
+						  <li></li>
 						  <li></li>
 						  <li></li>
 						  <li></li>
@@ -148,7 +147,7 @@
 				  </div>			  
 				</div>
 				<span class="themes-btn title" ><i class="fas fa-cog fa-lg fa-spin "></i></span>
-			  </div>
+			</section>	
 			<section class="home section" id="home section">
 				<div class="container">
 					<div class="intro">
@@ -158,31 +157,29 @@
 							<ul>
 								<li>
 									<div class="icon">
-										<i class="fab fa-facebook-square"></i>
+										<a  href="https://www.facebook.com/profile.php?id=100010241254007"><i class="fab fa-facebook-square"></i></a>
 									</div>
 								</li>	
 								<li>
 									<div class="icon">
-										<i class="fab fa-twitter-square"></i>
+										<a href="https://twitter.com/hiu11324817"><i class="fab fa-twitter-square"></i></a>
 									</div>
-									
 								</li>
 								<li>
 									<div class="icon">
-										<i class="fab fa-youtube"></i>
+										<a href="https://www.youtube.com/feed/my_videos"><i class="fab fa-youtube"></i></a>
 									</div>
 								</li>
 
 								<li>
 									<div class="icon">
-										<i class="fab fa-linkedin"></i>
+										<a href="https://www.linkedin.com/in/hi%E1%BA%BFu-tr%E1%BA%A7n-98a5811b5/"><i class="fab fa-linkedin"></i></a>
 									</div>
 								 </li>
 							</ul>					
 					</div>
 				</div>
 			</section>
-          
 			<section class="about section" id="about section">
 				<div class="container">
 						<div class="section-title padd-15">
@@ -190,7 +187,7 @@
 						</div>
 						<div class="about-text">
 									<h3>I'm Tran Tan Hieu and <span>Web Developer</span><h3>
-										<p>I myself is quite sociable, always cheerful, enthusiastic. Aspiring to be a programmer, a software developer. Hope that the software I wrote can help all users. bring the knowledge you have learned to help you with the same passion without learning conditions</p>
+										<p>I is quite sociable, always cheerful, enthusiastic. Aspiring to be a programmer, a software developer. Hope that the software I wrote can help all users. bring the knowledge you have learned to help you with the same passion without learning conditions</p>
 						</div>		
 					<div class="about-hobby">
 						<div class="title">
@@ -200,7 +197,7 @@
 							<li><i class="fas fa-book"></i></li>
 							<li><i class="fas fa-guitar"></i></li>
 							<li><i class="fas fa-music"></i></li>
-							<li><i class="fab fa-pagelines"></i></li>
+							<li><i class="fas fa-camera"></i></li>
 						</ul>
 					</div>		
 				</div>
@@ -243,11 +240,11 @@
 						<progress max="100" value="60" class="skill-2"></progress><br>
 					</div>
 					<div>
-						<h5>JAVASCRIPT</h5> 
+						<h5>JS</h5> 
 						<progress max="100" value="78" class="skill-3"></progress><br>
 					</div>
 					<div>
-						<h5>MYSQL</h5> 
+						<h5>SQL</h5> 
 						<progress max="100" value="90" class="skill-1"></progress><br>
 					</div>
 					<div>
@@ -266,8 +263,6 @@
 							<li><i class="fas fa-trophy"></i> Have certificates on linkedin JAVASCRIPT</li>
 							<li><i class="fas fa-trophy"></i> Developer Certification, representing approximately 300 hours of coursework</li>
 							<li><i class="fas fa-trophy"></i> Developer Certification, representing approximately 300 hours of coursework</li>
-							
-
 						</ul>
 					</div>
 				</div>
@@ -279,14 +274,12 @@
 		    $(selector).on('click', function(){
 			$(selector).removeClass('active');
 			$(this).addClass('active');
-			$(this).scrollspy({target: "active", offset: 50});   
+			$(this).scroll({target: "active", offset: 50});   
      });
 	</script>
-	
-	<script src="js/scroll.js">
 	</script>
 	<script src="js/script.js"></script>
-	<script src="js/dark-mode.js"></script>
+	<script src="js/dark_mode.js"></script>
 </body>
 </html>
 

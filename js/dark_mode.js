@@ -9,7 +9,7 @@ $(document).ready(function () {
 	
 	$('ul.themes-colors li').click(function () {
 		
-		$('.aside, .nav_btn .hi ').css('background', $(this).css('color'));
+		$('.aside,.lbel ').css('background', $(this).css('color'));
 		
 	});
   $('ul.logo-colors li').click(function () {
@@ -19,7 +19,7 @@ $(document).ready(function () {
 	});
 	$('ul.section-colors li').click(function () {
 		
-		$('.main-content section').css('background', $(this).css('color'));
+		$('.home,.about,.experience,.skill,.awards').css('background', $(this).css('color'));
 			
 		});
 		
