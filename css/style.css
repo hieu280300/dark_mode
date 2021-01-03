@@ -348,6 +348,11 @@ progress:after {
   background: #34495e;
   color: #34495e;
 } 
+.choose .colors .theme ul li:nth-child(10),
+.choose .colors .text ul li:nth-child(10) {
+  background: #F7FE2E;
+  color: #F7FE2E;
+} 
 
 .choose .title {
 	transform: translate(0px,-400px);
@@ -415,6 +420,9 @@ progress:after {
 	float: right;
 	margin-top: 7px;
 }
+.nav_mobile{
+	margin-right: -5px;
+}
 .nav_mobile ul{
 	padding: 5px;
 	list-style: none;
@@ -460,11 +468,11 @@ progress:after {
 .d{
 	float: left;
 	margin-top: 33px;
-	margin-right: -50px;
+	margin-right: -40px;
 }
 .color{
 	width: 150px;
-	background: #779ca1 ;
+	background:#17a2b8 ;
 	height:100%;
 	transform: translateX(100%);
 	
@@ -534,16 +542,17 @@ progress:after {
   background: #34495e;
   color: #34495e;
 }
-
+.color .theme ul li:nth-child(10),
+.color .text ul li:nth-child(10) {
+  background: #F7FE2E;
+  color: #F7FE2E;
+}
  .nav_input:checked ~ .nav_mobile{
 	transform: translateX(0);
 } 
 
 .color_input:checked ~ .color{
 	transform: translateX(0);
-}
-.col{
-	position: fixed;
 }
 @media(max-width:1023px){
 	.nav_btn {
